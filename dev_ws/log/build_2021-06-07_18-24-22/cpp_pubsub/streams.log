@@ -1,0 +1,84 @@
+[0.024s] Invoking command in '/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/dev_ws/install/cpp_pubsub
+[0.149s] -- The C compiler identification is GNU 9.3.0
+[0.266s] -- The CXX compiler identification is GNU 9.3.0
+[0.275s] -- Check for working C compiler: /usr/bin/cc
+[0.408s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.412s] -- Detecting C compiler ABI info
+[0.559s] -- Detecting C compiler ABI info - done
+[0.588s] -- Detecting C compile features
+[0.589s] -- Detecting C compile features - done
+[0.594s] -- Check for working CXX compiler: /usr/bin/c++
+[0.752s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.755s] -- Detecting CXX compiler ABI info
+[0.917s] -- Detecting CXX compiler ABI info - done
+[0.948s] -- Detecting CXX compile features
+[0.949s] -- Detecting CXX compile features - done
+[0.952s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.004s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.004s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.156s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.260s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.422s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.483s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.646s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.779s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.784s] -- Found rmw_cyclonedds_cpp: 0.22.2 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.830s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.831s] -- Looking for pthread.h
+[1.969s] -- Looking for pthread.h - found
+[1.969s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.113s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.114s] -- Looking for pthread_create in pthreads
+[2.234s] -- Looking for pthread_create in pthreads - not found
+[2.234s] -- Looking for pthread_create in pthread
+[2.381s] -- Looking for pthread_create in pthread - found
+[2.383s] -- Found Threads: TRUE  
+[2.735s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.881s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.884s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.884s] -- Configured cppcheck include dirs: 
+[2.884s] -- Configured cppcheck exclude dirs and/or files: 
+[2.886s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.887s] -- Configured cpplint exclude dirs and/or files: 
+[2.888s] -- Added test 'lint_cmake' to check CMake code style
+[2.891s] -- Added test 'uncrustify' to check C / C++ code style
+[2.891s] -- Configured uncrustify additional arguments: 
+[2.892s] -- Added test 'xmllint' to check XML markup files
+[2.898s] -- Configuring done
+[2.918s] -- Generating done
+[2.921s] -- Build files have been written to: /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub
+[2.937s] Invoked command in '/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/dev_ws/install/cpp_pubsub
+[2.943s] Invoking command in '/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub -- -j2 -l2
+[3.021s] [35m[1mScanning dependencies of target talker[0m
+[3.022s] [35m[1mScanning dependencies of target listener[0m
+[3.152s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.152s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[11.627s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[12.029s] [ 75%] Built target talker
+[17.791s] [100%] [32m[1mLinking CXX executable listener[0m
+[18.388s] [100%] Built target listener
+[18.407s] Invoked command in '/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub -- -j2 -l2
+[18.491s] Invoking command in '/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub
+[18.507s] -- Install configuration: ""
+[18.508s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[18.510s] -- Set runtime path of "/home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[18.511s] -- Up-to-date: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[18.511s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[18.516s] -- Set runtime path of "/home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[18.517s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[18.517s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[18.517s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[18.518s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[18.518s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[18.518s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[18.518s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[18.520s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[18.521s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[18.521s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[18.521s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[18.521s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[18.521s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[18.521s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[18.522s] -- Installing: /home/nazar/projects/lessons/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[18.525s] Invoked command in '/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub

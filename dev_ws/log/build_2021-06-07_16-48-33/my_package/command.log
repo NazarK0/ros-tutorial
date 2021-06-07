@@ -1,0 +1,6 @@
+Invoking command in '/home/nazar/projects/lessons/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/dev_ws/install/my_package
+Invoked command in '/home/nazar/projects/lessons/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/dev_ws/install/my_package
+Invoking command in '/home/nazar/projects/lessons/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/dev_ws/build/my_package -- -j2 -l2
+Invoked command in '/home/nazar/projects/lessons/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/dev_ws/build/my_package -- -j2 -l2
+Invoking command in '/home/nazar/projects/lessons/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/nazar/projects/lessons/dev_ws/build/my_package
+Invoked command in '/home/nazar/projects/lessons/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/nazar/projects/lessons/dev_ws/build/my_package

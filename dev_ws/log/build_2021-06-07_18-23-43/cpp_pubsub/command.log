@@ -1,0 +1,2 @@
+Invoking command in '/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/dev_ws/install/cpp_pubsub
+Invoked command in '/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/dev_ws/install/cpp_pubsub

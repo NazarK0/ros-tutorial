@@ -1,0 +1,7 @@
+[0.033s] Invoking command in '/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/dev_ws/install/cpp_pubsub
+[0.048s] CMake Error at CMakeLists.txt:24:
+[0.048s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.048s] 
+[0.049s] 
+[0.049s] -- Configuring incomplete, errors occurred!
+[0.052s] Invoked command in '/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/dev_ws/install/cpp_pubsub

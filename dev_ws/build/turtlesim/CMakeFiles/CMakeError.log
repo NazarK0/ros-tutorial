@@ -1,0 +1,58 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/nazar/projects/lessons/dev_ws/build/turtlesim/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_521e3/fast && /usr/bin/make -f CMakeFiles/cmTC_521e3.dir/build.make CMakeFiles/cmTC_521e3.dir/build
+make[1]: входимо до каталогу «/home/nazar/projects/lessons/dev_ws/build/turtlesim/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_521e3.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_521e3.dir/src.c.o   -c /home/nazar/projects/lessons/dev_ws/build/turtlesim/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_521e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_521e3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_521e3.dir/src.c.o  -o cmTC_521e3 
+/usr/bin/ld: CMakeFiles/cmTC_521e3.dir/src.c.o: у функції «main»:
+src.c:(.text+0x46): невизначене посилання «pthread_create»
+/usr/bin/ld: src.c:(.text+0x52): невизначене посилання «pthread_detach»
+/usr/bin/ld: src.c:(.text+0x63): невизначене посилання «pthread_join»
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_521e3.dir/build.make:87: cmTC_521e3] Помилка 1
+make[1]: Залишаю каталог "/home/nazar/projects/lessons/dev_ws/build/turtlesim/CMakeFiles/CMakeTmp"
+make: *** [Makefile:121: cmTC_521e3/fast] Помилка 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nazar/projects/lessons/dev_ws/build/turtlesim/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1a4c/fast && /usr/bin/make -f CMakeFiles/cmTC_f1a4c.dir/build.make CMakeFiles/cmTC_f1a4c.dir/build
+make[1]: входимо до каталогу «/home/nazar/projects/lessons/dev_ws/build/turtlesim/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f1a4c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f1a4c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f1a4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1a4c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f1a4c.dir/CheckFunctionExists.c.o  -o cmTC_f1a4c  -lpthreads 
+/usr/bin/ld: не вдалося знайти -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_f1a4c.dir/build.make:87: cmTC_f1a4c] Помилка 1
+make[1]: Залишаю каталог "/home/nazar/projects/lessons/dev_ws/build/turtlesim/CMakeFiles/CMakeTmp"
+make: *** [Makefile:121: cmTC_f1a4c/fast] Помилка 2
+
+
+
