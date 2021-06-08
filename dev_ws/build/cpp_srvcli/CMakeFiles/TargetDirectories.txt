@@ -1,0 +1,11 @@
+/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles/install/strip.dir
+/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles/edit_cache.dir
+/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles/test.dir
+/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles/client.dir
+/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles/install/local.dir
+/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles/server.dir
+/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles/install.dir
+/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles/list_install_components.dir
+/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles/rebuild_cache.dir
+/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles/cpp_srvcli_uninstall.dir
+/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles/uninstall.dir

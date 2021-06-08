@@ -1,0 +1,41 @@
+[0.026s] Invoking command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces
+[0.049s] CMake Warning (dev) at CMakeLists.txt:7:
+[0.050s]   Syntax Warning in cmake code at column 16
+[0.050s] 
+[0.050s]   Argument not separated from preceding token by whitespace.
+[0.050s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.050s] 
+[0.142s] -- The C compiler identification is GNU 9.3.0
+[0.247s] -- The CXX compiler identification is GNU 9.3.0
+[0.257s] -- Check for working C compiler: /usr/bin/cc
+[0.396s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.401s] -- Detecting C compiler ABI info
+[0.568s] -- Detecting C compiler ABI info - done
+[0.611s] -- Detecting C compile features
+[0.614s] -- Detecting C compile features - done
+[0.629s] -- Check for working CXX compiler: /usr/bin/c++
+[0.815s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.819s] -- Detecting CXX compiler ABI info
+[1.000s] -- Detecting CXX compiler ABI info - done
+[1.041s] -- Detecting CXX compile features
+[1.047s] -- Detecting CXX compile features - done
+[1.170s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.258s] -- Found ament_cmake_core: 1.1.4 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+[1.298s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.300s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.432s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.448s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.686s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.753s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.922s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.026s] CMake Error at /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[2.027s]   rosidl_generate_interfaces() the passed file ',' doesn't exist relative to
+[2.027s]   the CMAKE_CURRENT_SOURCE_DIR
+[2.027s]   '/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/tutorial_interfaces'
+[2.027s] Call Stack (most recent call first):
+[2.027s]   CMakeLists.txt:6 (rosidl_generate_interfaces)
+[2.028s] 
+[2.028s] 
+[2.029s] -- Configuring incomplete, errors occurred!
+[2.029s] See also "/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[2.043s] Invoked command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces
