@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub
+CMAKE_SOURCE_DIR = /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub
+CMAKE_BINARY_DIR = /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub
 
 # Utility rule file for cpp_pubsub_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub
 include CMakeFiles/cpp_pubsub_uninstall.dir/progress.make
 
 CMakeFiles/cpp_pubsub_uninstall:
-	/usr/bin/cmake -P /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 cpp_pubsub_uninstall: CMakeFiles/cpp_pubsub_uninstall
 cpp_pubsub_uninstall: CMakeFiles/cpp_pubsub_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/cpp_pubsub_uninstall.dir/clean:
 .PHONY : CMakeFiles/cpp_pubsub_uninstall.dir/clean
 
 CMakeFiles/cpp_pubsub_uninstall.dir/depend:
-	cd /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub/CMakeFiles/cpp_pubsub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_pubsub_uninstall.dir/depend
 

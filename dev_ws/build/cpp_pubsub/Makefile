@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub
+CMAKE_SOURCE_DIR = /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub
+CMAKE_BINARY_DIR = /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub/CMakeFiles /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub/CMakeFiles /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

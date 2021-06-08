@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub
+CMAKE_SOURCE_DIR = /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub
+CMAKE_BINARY_DIR = /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub
 
 # Include any dependencies generated for this target.
 include CMakeFiles/talker.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/talker.dir/progress.make
 include CMakeFiles/talker.dir/flags.make
 
 CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: CMakeFiles/talker.dir/flags.make
-CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/talker.dir/src/publisher_member_function.cpp.o -c /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp
+CMakeFiles/talker.dir/src/publisher_member_function.cpp.o: /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/talker.dir/src/publisher_member_function.cpp.o -c /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp
 
 CMakeFiles/talker.dir/src/publisher_member_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/publisher_member_function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp > CMakeFiles/talker.dir/src/publisher_member_function.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp > CMakeFiles/talker.dir/src/publisher_member_function.cpp.i
 
 CMakeFiles/talker.dir/src/publisher_member_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/publisher_member_function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp -o CMakeFiles/talker.dir/src/publisher_member_function.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp -o CMakeFiles/talker.dir/src/publisher_member_function.cpp.s
 
 # Object files for target talker
 talker_OBJECTS = \
@@ -80,6 +80,10 @@ talker_EXTERNAL_OBJECTS =
 talker: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o
 talker: CMakeFiles/talker.dir/build.make
 talker: /opt/ros/galactic/lib/librclcpp.so
+talker: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+talker: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+talker: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+talker: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
 talker: /opt/ros/galactic/lib/libament_index_cpp.so
 talker: /opt/ros/galactic/lib/liblibstatistics_collector.so
 talker: /opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
@@ -118,17 +122,18 @@ talker: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_introspe
 talker: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_generator_c.so
 talker: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 talker: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+talker: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+talker: /opt/ros/galactic/lib/libtracetools.so
+talker: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
 talker: /opt/ros/galactic/lib/librosidl_typesupport_introspection_cpp.so
 talker: /opt/ros/galactic/lib/librosidl_typesupport_introspection_c.so
-talker: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 talker: /opt/ros/galactic/lib/librosidl_typesupport_cpp.so
 talker: /opt/ros/galactic/lib/librosidl_typesupport_c.so
 talker: /opt/ros/galactic/lib/librcpputils.so
 talker: /opt/ros/galactic/lib/librosidl_runtime_c.so
 talker: /opt/ros/galactic/lib/librcutils.so
-talker: /opt/ros/galactic/lib/libtracetools.so
 talker: CMakeFiles/talker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nazar/projects/lessons/dev_ws/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable talker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable talker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/talker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +146,6 @@ CMakeFiles/talker.dir/clean:
 .PHONY : CMakeFiles/talker.dir/clean
 
 CMakeFiles/talker.dir/depend:
-	cd /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub /home/nazar/projects/lessons/dev_ws/src/cpp_pubsub /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub /home/nazar/projects/lessons/dev_ws/build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_pubsub/CMakeFiles/talker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/talker.dir/depend
 

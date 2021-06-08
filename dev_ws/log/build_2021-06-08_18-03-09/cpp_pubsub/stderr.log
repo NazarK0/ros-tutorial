@@ -1,0 +1,25 @@
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:45:[m[K [01;31m[Kerror: [m[K‘[01m[KMsg[m[K’ is not a member of ‘[01m[Ktutorial_interfaces[m[K’; did you mean ‘[01m[Kmsg[m[K’?
+   38 |   rclcpp::Subscription<tutorial_interfaces::[01;31m[KMsg[m[K::Num>::SharedPtr subscription_;
+      |                                             [01;31m[K^~~[m[K
+      |                                             [32m[Kmsg[m[K
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |   rclcpp::Subscription<tutorial_interfaces::Msg::Num[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   38 | clcpp::Subscription<tutorial_interfaces::Msg::Num>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:38:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   38 | :Subscription<tutorial_interfaces::Msg::Num>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                         [32m[Krcl_subscription_t[m[K
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+   29 |     [01;31m[Ksubscription_[m[K = this->create_subscription<tutorial_interfaces::msg::Num>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krcl_subscription_t[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Помилка 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Помилка 2
+make[1]: *** Очікування завершення завдань...
+make: *** [Makefile:141: all] Помилка 2
