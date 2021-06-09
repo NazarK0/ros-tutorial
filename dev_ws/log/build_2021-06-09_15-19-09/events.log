@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000286] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000357] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001120] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001231] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001288] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001346] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.001407] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.098092] (-) TimerEvent: {}
+[0.103966] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.104067] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces'], 'cwd': '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'uk:en'), ('USER', 'nazar'), ('LC_TIME', 'uk_UA.UTF-8'), ('SSH_AGENT_PID', '1334'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nazar'), ('OLDPWD', '/home/nazar'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nazar/.nvm/versions/node/v12.22.1/bin'), ('NVM_INC', '/home/nazar/.nvm/versions/node/v12.22.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'uk_UA.UTF-8'), ('MANAGERPID', '1058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nazar/.nvm'), ('_colcon_cd_root', '/home/nazar/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nazar'), ('JOURNAL_STREAM', '8:37846'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nazar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nazar/.nvm/versions/node/v12.22.1/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nazar-EasyNote-TE11HC:@/tmp/.ICE-unix/1388,unix/nazar-EasyNote-TE11HC:/tmp/.ICE-unix/1388'), ('INVOCATION_ID', '923ab98516dd44bf8e2959c11d65c5d2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'uk_UA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46602d7e_b034_4bbc_b893_964f031e3d64'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'uk_UA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'uk_UA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.531'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'uk_UA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'uk_UA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'uk_UA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'uk_UA.UTF-8'), ('LC_PAPER', 'uk_UA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.198420] (-) TimerEvent: {}
+[0.299176] (-) TimerEvent: {}
+[0.399809] (-) TimerEvent: {}
+[0.500428] (-) TimerEvent: {}
+[0.600957] (-) TimerEvent: {}
+[0.701889] (-) TimerEvent: {}
+[0.802697] (-) TimerEvent: {}
+[0.903386] (-) TimerEvent: {}
+[1.003850] (-) TimerEvent: {}
+[1.104361] (-) TimerEvent: {}
+[1.205030] (-) TimerEvent: {}
+[1.305544] (-) TimerEvent: {}
+[1.406082] (-) TimerEvent: {}
+[1.506817] (-) TimerEvent: {}
+[1.607497] (-) TimerEvent: {}
+[1.707997] (more_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[1.708454] (-) TimerEvent: {}
+[1.808913] (-) TimerEvent: {}
+[1.909438] (-) TimerEvent: {}
+[2.009902] (-) TimerEvent: {}
+[2.115675] (-) TimerEvent: {}
+[2.216321] (-) TimerEvent: {}
+[2.316974] (-) TimerEvent: {}
+[2.409572] (more_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[2.417184] (-) TimerEvent: {}
+[2.517799] (-) TimerEvent: {}
+[2.526231] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.617960] (-) TimerEvent: {}
+[2.719084] (-) TimerEvent: {}
+[2.724635] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.727215] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.819219] (-) TimerEvent: {}
+[2.899803] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.919345] (-) TimerEvent: {}
+[2.938041] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.939369] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.950066] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.019480] (-) TimerEvent: {}
+[3.119917] (-) TimerEvent: {}
+[3.147765] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.148084] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.220107] (-) TimerEvent: {}
+[3.306548] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.320261] (-) TimerEvent: {}
+[3.333632] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.334930] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.420411] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[3.420742] (-) TimerEvent: {}
+[3.521125] (-) TimerEvent: {}
+[3.562746] (more_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[3.563181] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.621275] (-) TimerEvent: {}
+[3.722008] (-) TimerEvent: {}
+[3.827288] (-) TimerEvent: {}
+[3.902500] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[3.927612] (-) TimerEvent: {}
+[3.973092] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.027816] (-) TimerEvent: {}
+[4.072434] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[4.128030] (-) TimerEvent: {}
+[4.228600] (-) TimerEvent: {}
+[4.330035] (-) TimerEvent: {}
+[4.430628] (-) TimerEvent: {}
+[4.531080] (-) TimerEvent: {}
+[4.619290] (more_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.631358] (-) TimerEvent: {}
+[4.702252] (more_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[4.731683] (-) TimerEvent: {}
+[4.832468] (-) TimerEvent: {}
+[4.933230] (-) TimerEvent: {}
+[5.033851] (-) TimerEvent: {}
+[5.134396] (-) TimerEvent: {}
+[5.235006] (-) TimerEvent: {}
+[5.336866] (-) TimerEvent: {}
+[5.357383] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.436967] (-) TimerEvent: {}
+[5.534499] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[5.537088] (-) TimerEvent: {}
+[5.637891] (-) TimerEvent: {}
+[5.738384] (-) TimerEvent: {}
+[5.838878] (-) TimerEvent: {}
+[5.939421] (-) TimerEvent: {}
+[5.955671] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[5.979036] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.2 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[6.039600] (-) TimerEvent: {}
+[6.069238] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[6.096243] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.139847] (-) TimerEvent: {}
+[6.240400] (-) TimerEvent: {}
+[6.251269] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.252353] (more_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.341083] (-) TimerEvent: {}
+[6.433093] (more_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[6.436325] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[6.441202] (-) TimerEvent: {}
+[6.541604] (-) TimerEvent: {}
+[6.605092] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[6.605467] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[6.643073] (-) TimerEvent: {}
+[6.744028] (-) TimerEvent: {}
+[6.781417] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[6.783562] (more_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.844152] (-) TimerEvent: {}
+[6.944576] (-) TimerEvent: {}
+[7.044990] (-) TimerEvent: {}
+[7.145392] (-) TimerEvent: {}
+[7.245802] (-) TimerEvent: {}
+[7.346208] (-) TimerEvent: {}
+[7.408403] (more_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[7.411684] (more_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/AddresBook.msg' doesn't\n"}
+[7.411913] (more_interfaces) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[7.412092] (more_interfaces) StderrLine: {'line': b"  '/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces'\n"}
+[7.412265] (more_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.412458] (more_interfaces) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[7.412628] (more_interfaces) StderrLine: {'line': b'\n'}
+[7.412919] (more_interfaces) StderrLine: {'line': b'\n'}
+[7.420206] (more_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.420507] (more_interfaces) StdoutLine: {'line': b'See also "/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[7.420696] (more_interfaces) StdoutLine: {'line': b'See also "/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces/CMakeFiles/CMakeError.log".\n'}
+[7.443638] (more_interfaces) CommandEnded: {'returncode': 1}
+[7.448816] (-) TimerEvent: {}
+[7.549409] (-) TimerEvent: {}
+[7.626766] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 1}
+[7.629293] (-) EventReactorShutdown: {}

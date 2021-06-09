@@ -1,0 +1,112 @@
+[0.034s] Invoking command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces -- -j2 -l2
+[0.110s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.157s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.169s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.307s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.318s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.610s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.661s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.789s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.793s] -- Found rmw_cyclonedds_cpp: 0.22.2 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.837s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.214s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.458s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[1.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.716s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.719s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[1.775s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.775s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.775s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.820s] -- Configuring done
+[1.913s] -- Generating done
+[1.922s] -- Build files have been written to: /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces
+[2.008s] [  8%] Built target more_interfaces__rosidl_generator_c
+[2.027s] [ 11%] Built target more_interfaces__cpp
+[2.059s] [ 20%] Built target more_interfaces__rosidl_typesupport_c
+[2.114s] [ 28%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[2.149s] [ 37%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[2.166s] [ 45%] Built target more_interfaces__rosidl_typesupport_cpp
+[2.229s] [ 54%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.286s] [ 62%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[2.320s] [ 62%] Built target more_interfaces
+[2.353s] [35m[1mScanning dependencies of target subscribe_address_book[0m
+[2.397s] [ 65%] Built target more_interfaces__py
+[2.480s] [ 68%] [32mBuilding CXX object CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o[0m
+[2.496s] [ 74%] Built target publish_address_book
+[2.560s] [ 80%] Built target more_interfaces__python
+[2.664s] [ 85%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[2.778s] [ 91%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.918s] [ 97%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.338s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:12:27:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[Krclcpp::Node[m[K’ in a constant expression
+[6.338s]    12 |   AddressBookSubscriber : [01;31m[KNode("address_book_subscriber")[m[K
+[6.339s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.339s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.339s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[6.340s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[6.340s]                  from [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:4[m[K:
+[6.340s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:77:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Node[m[K’ is not literal because:
+[6.340s]    77 | class [01;36m[KNode[m[K : public std::enable_shared_from_this<Node>
+[6.340s]       |       [01;36m[K^~~~[m[K
+[6.340s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:77:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Node[m[K’ has a non-trivial destructor
+[6.341s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:13:3:[m[K [01;31m[Kerror: [m[Kdefault member initializer for unnamed bit-field
+[6.341s]    13 |   [01;31m[K{[m[K
+[6.341s]       |   [01;31m[K^[m[K
+[6.341s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:16:3:[m[K [01;31m[Kerror: [m[Kname ‘[01m[KAddressBookSubscriber[m[K’ has incomplete type
+[6.341s]    16 |   [01;31m[K}[m[K
+[6.341s]       |   [01;31m[K^[m[K
+[6.342s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:16:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.342s]    16 |   [01;31m[K}[m[K
+[6.342s]       |   [01;31m[K^[m[K
+[6.342s]       |    [32m[K;[m[K
+[6.454s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:[m[K In member function ‘[01m[Kvoid AddressBookSubscriber::topic_callback(more_interfaces::msg::AddressBook_<std::allocator<void> >::SharedPtr) const[m[K’:
+[6.455s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:24:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[6.455s]    24 |   [01;31m[K}[m[K
+[6.455s]       |   [01;31m[K^[m[K
+[7.503s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[7.504s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[7.504s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[7.504s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[7.504s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[7.504s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[7.505s]                  from [01m[K/usr/include/c++/9/functional:54[m[K,
+[7.505s]                  from [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:1[m[K:
+[7.505s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = AddressBookSubscriber; _Args = {}; _Tp = AddressBookSubscriber][m[K’:
+[7.505s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:482:2:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = AddressBookSubscriber; _Args = {}; _Tp = AddressBookSubscriber; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<AddressBookSubscriber>][m[K’
+[7.505s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = AddressBookSubscriber; _Alloc = std::allocator<AddressBookSubscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[7.505s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = AddressBookSubscriber; _Alloc = std::allocator<AddressBookSubscriber>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[7.506s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AddressBookSubscriber>; _Args = {}; _Tp = AddressBookSubscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[7.506s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AddressBookSubscriber>; _Args = {}; _Tp = AddressBookSubscriber][m[K’
+[7.506s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = AddressBookSubscriber; _Alloc = std::allocator<AddressBookSubscriber>; _Args = {}][m[K’
+[7.506s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = AddressBookSubscriber; _Args = {}][m[K’
+[7.506s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:32:56:[m[K   required from here
+[7.506s] [01m[K/usr/include/c++/9/ext/new_allocator.h:145:20:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KAddressBookSubscriber::AddressBookSubscriber()[m[K’
+[7.507s]   145 |  noexcept(noexcept([01;31m[K::new((void *)__p)[m[K
+[7.507s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.507s]   146 | [01;31m[K       _Up(std::forward<_Args>(__args)...)[m[K))
+[7.507s]       |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.512s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[KAddressBookSubscriber::AddressBookSubscriber()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[7.512s]     9 | class [01;36m[KAddressBookSubscriber[m[K : public rclcpp::Node
+[7.512s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[7.513s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:9:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[7.513s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.513s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[7.513s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[7.513s]                  from [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:4[m[K:
+[7.513s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:1288:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[7.514s]  1288 |   [01;36m[KNode[m[K(
+[7.514s]       |   [01;36m[K^~~~[m[K
+[7.514s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:1288:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[7.514s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[7.514s]   101 |   explicit [01;36m[KNode[m[K(
+[7.514s]       |            [01;36m[K^~~~[m[K
+[7.515s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[7.515s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[7.515s]    89 |   explicit [01;36m[KNode[m[K(
+[7.515s]       |            [01;36m[K^~~~[m[K
+[7.515s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[7.635s] make[2]: *** [CMakeFiles/subscribe_address_book.dir/build.make:63: CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o] Помилка 1
+[7.635s] make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/subscribe_address_book.dir/all] Помилка 2
+[7.638s] make: *** [Makefile:141: all] Помилка 2
+[7.642s] Invoked command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces -- -j2 -l2

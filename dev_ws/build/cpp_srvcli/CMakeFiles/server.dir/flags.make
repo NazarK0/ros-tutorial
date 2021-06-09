@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION
 
-CXX_INCLUDES = -isystem /opt/ros/galactic/include 
+CXX_INCLUDES = -isystem /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/include -isystem /opt/ros/galactic/include 
 

@@ -1,0 +1,112 @@
+[0.036s] Invoking command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces
+[0.067s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.116s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.117s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.250s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.260s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.557s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.612s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.740s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.744s] -- Found rmw_cyclonedds_cpp: 0.22.2 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.787s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.165s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.403s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[1.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.613s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.660s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.662s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[1.706s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.706s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.707s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.899s] -- Configuring done
+[2.167s] -- Generating done
+[2.173s] -- Build files have been written to: /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces
+[2.208s] Invoked command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces
+[2.209s] Invoking command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces -- -j2 -l2
+[2.306s] [35m[1mScanning dependencies of target more_interfaces__cpp[0m
+[2.309s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.349s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.219s] [  6%] Built target more_interfaces__cpp
+[3.242s] [35m[1mScanning dependencies of target more_interfaces__rosidl_generator_c[0m
+[3.258s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.315s] [ 12%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[3.637s] [ 15%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[3.812s] [ 15%] Built target more_interfaces__rosidl_generator_c
+[3.891s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.081s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[4.123s] [ 21%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[4.562s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[4.629s] [ 24%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[5.570s] [ 27%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.873s] [ 27%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[5.905s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.049s] [ 33%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[6.214s] [ 33%] Built target more_interfaces__rosidl_typesupport_cpp
+[6.248s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.792s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[6.847s] [ 39%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[6.975s] [ 42%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[7.148s] [ 42%] Built target more_interfaces__rosidl_typesupport_c
+[7.166s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.199s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[7.302s] [ 48%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[8.204s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[8.270s] [ 51%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[8.399s] [ 54%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[8.539s] [ 54%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[9.045s] [ 57%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.361s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.385s] [ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.977s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[10.054s] [ 63%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[10.932s] [ 66%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[11.146s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[11.173s] [35m[1mScanning dependencies of target more_interfaces[0m
+[11.194s] [ 66%] Built target more_interfaces
+[11.233s] [35m[1mScanning dependencies of target publish_address_book[0m
+[11.252s] [35m[1mScanning dependencies of target more_interfaces__py[0m
+[11.298s] [ 69%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.393s] [ 72%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[14.544s] [ 72%] Built target more_interfaces__py
+[14.580s] [35m[1mScanning dependencies of target more_interfaces__python[0m
+[14.798s] [ 75%] [32mBuilding C object CMakeFiles/more_interfaces__python.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[15.405s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__python.so[0m
+[15.591s] [ 78%] Built target more_interfaces__python
+[15.640s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[15.750s] [ 81%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[16.126s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[16.263s] [ 84%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[16.312s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[16.395s] [ 87%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.793s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[16.872s] [ 90%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[16.891s] [35m[1mScanning dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[16.949s] [ 93%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.259s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:36:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.259s]    36 |     rclcpp::Publisher<more_interfaces::msg::AddressBook::SharedPtr [01;31m[Kaddress_book_publisher_[m[K;
+[17.259s]       |                                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.275s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In constructor ‘[01m[KAddressBookPublisher::AddressBookPublisher()[m[K’:
+[17.276s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddress_book_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KAddressBookPublisher[m[K’?
+[17.276s]    14 |         [01;31m[Kaddress_book_publisher_[m[K =
+[17.276s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.276s]       |         [32m[KAddressBookPublisher[m[K
+[17.294s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In lambda function:
+[17.295s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:18:50:[m[K [01;31m[Kerror: [m[K‘[01m[KAdressBook[m[K’ is not a member of ‘[01m[Kmore_interfaces::msg[m[K’; did you mean ‘[01m[KAddressBook[m[K’?
+[17.295s]    18 |             auto message = more_interfaces::msg::[01;31m[KAdressBook[m[K();
+[17.295s]       |                                                  [01;31m[K^~~~~~~~~~[m[K
+[17.296s]       |                                                  [32m[KAddressBook[m[K
+[17.298s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:29:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AddressBookPublisher[m[K’ has no member named ‘[01m[Kaddress_book_publisher_[m[K’; did you mean ‘[01m[KAddressBookPublisher[m[K’?
+[17.298s]    29 |             this->[01;31m[Kaddress_book_publisher_[m[K->publish(message);
+[17.298s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.299s]       |                   [32m[KAddressBookPublisher[m[K
+[17.299s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In constructor ‘[01m[KAddressBookPublisher::AddressBookPublisher()[m[K’:
+[17.300s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:32:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Ktimer_[m[K’
+[17.300s]    32 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(1s,publish_msg);
+[17.300s]       |         [01;31m[K^~~~~~[m[K
+[17.359s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[17.643s] [ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[19.454s] make[2]: *** [CMakeFiles/publish_address_book.dir/build.make:63: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Помилка 1
+[19.454s] make[1]: *** [CMakeFiles/Makefile2:365: CMakeFiles/publish_address_book.dir/all] Помилка 2
+[19.454s] make: *** [Makefile:141: all] Помилка 2
+[19.459s] Invoked command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces -- -j2 -l2

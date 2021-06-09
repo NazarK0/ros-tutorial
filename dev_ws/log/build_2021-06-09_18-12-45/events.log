@@ -1,0 +1,291 @@
+[0.000000] (-) TimerEvent: {}
+[0.000483] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000588] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000638] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000685] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000730] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000783] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.004724] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.035115] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.036683] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.038130] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'uk:en'), ('USER', 'nazar'), ('LC_TIME', 'uk_UA.UTF-8'), ('SSH_AGENT_PID', '1334'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nazar'), ('OLDPWD', '/home/nazar'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nazar/.nvm/versions/node/v12.22.1/bin'), ('NVM_INC', '/home/nazar/.nvm/versions/node/v12.22.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'uk_UA.UTF-8'), ('MANAGERPID', '1058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nazar/.nvm'), ('_colcon_cd_root', '/home/nazar/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nazar'), ('JOURNAL_STREAM', '8:37846'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nazar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nazar/.nvm/versions/node/v12.22.1/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nazar-EasyNote-TE11HC:@/tmp/.ICE-unix/1388,unix/nazar-EasyNote-TE11HC:/tmp/.ICE-unix/1388'), ('INVOCATION_ID', '923ab98516dd44bf8e2959c11d65c5d2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'uk_UA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46602d7e_b034_4bbc_b893_964f031e3d64'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'uk_UA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'uk_UA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.531'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'uk_UA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'uk_UA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'uk_UA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'uk_UA.UTF-8'), ('LC_PAPER', 'uk_UA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.101198] (-) TimerEvent: {}
+[0.167162] (more_interfaces) StdoutLine: {'line': b'[  8%] Built target more_interfaces__rosidl_generator_c\n'}
+[0.170811] (more_interfaces) StdoutLine: {'line': b'[ 11%] Built target more_interfaces__cpp\n'}
+[0.201305] (-) TimerEvent: {}
+[0.207425] (more_interfaces) StdoutLine: {'line': b'[ 20%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[0.213543] (more_interfaces) StdoutLine: {'line': b'[ 28%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.252680] (more_interfaces) StdoutLine: {'line': b'[ 37%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.258786] (more_interfaces) StdoutLine: {'line': b'[ 45%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[0.301453] (-) TimerEvent: {}
+[0.302303] (more_interfaces) StdoutLine: {'line': b'[ 54%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.352485] (more_interfaces) StdoutLine: {'line': b'[ 62%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.392798] (more_interfaces) StdoutLine: {'line': b'[ 62%] Built target more_interfaces\n'}
+[0.401569] (-) TimerEvent: {}
+[0.429348] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscribe_address_book\x1b[0m\n'}
+[0.466746] (more_interfaces) StdoutLine: {'line': b'[ 65%] Built target more_interfaces__py\n'}
+[0.501695] (-) TimerEvent: {}
+[0.514885] (more_interfaces) StdoutLine: {'line': b'[ 71%] Built target publish_address_book\n'}
+[0.558757] (more_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o\x1b[0m\n'}
+[0.600570] (more_interfaces) StdoutLine: {'line': b'[ 80%] Built target more_interfaces__python\n'}
+[0.601928] (-) TimerEvent: {}
+[0.664678] (more_interfaces) StdoutLine: {'line': b'[ 85%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.702066] (-) TimerEvent: {}
+[0.710434] (more_interfaces) StdoutLine: {'line': b'[ 91%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.772705] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.802215] (-) TimerEvent: {}
+[0.902885] (-) TimerEvent: {}
+[1.003322] (-) TimerEvent: {}
+[1.103846] (-) TimerEvent: {}
+[1.204287] (-) TimerEvent: {}
+[1.304723] (-) TimerEvent: {}
+[1.405154] (-) TimerEvent: {}
+[1.505585] (-) TimerEvent: {}
+[1.606041] (-) TimerEvent: {}
+[1.706508] (-) TimerEvent: {}
+[1.806965] (-) TimerEvent: {}
+[1.907408] (-) TimerEvent: {}
+[2.007846] (-) TimerEvent: {}
+[2.108287] (-) TimerEvent: {}
+[2.208727] (-) TimerEvent: {}
+[2.309165] (-) TimerEvent: {}
+[2.409622] (-) TimerEvent: {}
+[2.510061] (-) TimerEvent: {}
+[2.610506] (-) TimerEvent: {}
+[2.710965] (-) TimerEvent: {}
+[2.811402] (-) TimerEvent: {}
+[2.911838] (-) TimerEvent: {}
+[3.012274] (-) TimerEvent: {}
+[3.112719] (-) TimerEvent: {}
+[3.213159] (-) TimerEvent: {}
+[3.313606] (-) TimerEvent: {}
+[3.414213] (-) TimerEvent: {}
+[3.514673] (-) TimerEvent: {}
+[3.615094] (-) TimerEvent: {}
+[3.715527] (-) TimerEvent: {}
+[3.815971] (-) TimerEvent: {}
+[3.916402] (-) TimerEvent: {}
+[4.016844] (-) TimerEvent: {}
+[4.117289] (-) TimerEvent: {}
+[4.217740] (-) TimerEvent: {}
+[4.318185] (-) TimerEvent: {}
+[4.418656] (-) TimerEvent: {}
+[4.519089] (-) TimerEvent: {}
+[4.619543] (-) TimerEvent: {}
+[4.719989] (-) TimerEvent: {}
+[4.820439] (-) TimerEvent: {}
+[4.920879] (-) TimerEvent: {}
+[5.021330] (-) TimerEvent: {}
+[5.121778] (-) TimerEvent: {}
+[5.222216] (-) TimerEvent: {}
+[5.322678] (-) TimerEvent: {}
+[5.423134] (-) TimerEvent: {}
+[5.523582] (-) TimerEvent: {}
+[5.624040] (-) TimerEvent: {}
+[5.724479] (-) TimerEvent: {}
+[5.824928] (-) TimerEvent: {}
+[5.925373] (-) TimerEvent: {}
+[6.025828] (-) TimerEvent: {}
+[6.126272] (-) TimerEvent: {}
+[6.226690] (-) TimerEvent: {}
+[6.327122] (-) TimerEvent: {}
+[6.427563] (-) TimerEvent: {}
+[6.528001] (-) TimerEvent: {}
+[6.628452] (-) TimerEvent: {}
+[6.728901] (-) TimerEvent: {}
+[6.829356] (-) TimerEvent: {}
+[6.929804] (-) TimerEvent: {}
+[7.030249] (-) TimerEvent: {}
+[7.130691] (-) TimerEvent: {}
+[7.231144] (-) TimerEvent: {}
+[7.331584] (-) TimerEvent: {}
+[7.432042] (-) TimerEvent: {}
+[7.532491] (-) TimerEvent: {}
+[7.632941] (-) TimerEvent: {}
+[7.733384] (-) TimerEvent: {}
+[7.833834] (-) TimerEvent: {}
+[7.934282] (-) TimerEvent: {}
+[8.034751] (-) TimerEvent: {}
+[8.135194] (-) TimerEvent: {}
+[8.235642] (-) TimerEvent: {}
+[8.336085] (-) TimerEvent: {}
+[8.436540] (-) TimerEvent: {}
+[8.536986] (-) TimerEvent: {}
+[8.637445] (-) TimerEvent: {}
+[8.737898] (-) TimerEvent: {}
+[8.838346] (-) TimerEvent: {}
+[8.938796] (-) TimerEvent: {}
+[9.039250] (-) TimerEvent: {}
+[9.139680] (-) TimerEvent: {}
+[9.240107] (-) TimerEvent: {}
+[9.341147] (-) TimerEvent: {}
+[9.441555] (-) TimerEvent: {}
+[9.541997] (-) TimerEvent: {}
+[9.642455] (-) TimerEvent: {}
+[9.742910] (-) TimerEvent: {}
+[9.843350] (-) TimerEvent: {}
+[9.943795] (-) TimerEvent: {}
+[10.044249] (-) TimerEvent: {}
+[10.144689] (-) TimerEvent: {}
+[10.245142] (-) TimerEvent: {}
+[10.345580] (-) TimerEvent: {}
+[10.446013] (-) TimerEvent: {}
+[10.546449] (-) TimerEvent: {}
+[10.646907] (-) TimerEvent: {}
+[10.747355] (-) TimerEvent: {}
+[10.847798] (-) TimerEvent: {}
+[10.948252] (-) TimerEvent: {}
+[11.048698] (-) TimerEvent: {}
+[11.149143] (-) TimerEvent: {}
+[11.249596] (-) TimerEvent: {}
+[11.350042] (-) TimerEvent: {}
+[11.450493] (-) TimerEvent: {}
+[11.550932] (-) TimerEvent: {}
+[11.651371] (-) TimerEvent: {}
+[11.751818] (-) TimerEvent: {}
+[11.852262] (-) TimerEvent: {}
+[11.952708] (-) TimerEvent: {}
+[12.053147] (-) TimerEvent: {}
+[12.153579] (-) TimerEvent: {}
+[12.254031] (-) TimerEvent: {}
+[12.354484] (-) TimerEvent: {}
+[12.454932] (-) TimerEvent: {}
+[12.555386] (-) TimerEvent: {}
+[12.655835] (-) TimerEvent: {}
+[12.756274] (-) TimerEvent: {}
+[12.856717] (-) TimerEvent: {}
+[12.957167] (-) TimerEvent: {}
+[13.057620] (-) TimerEvent: {}
+[13.158059] (-) TimerEvent: {}
+[13.258500] (-) TimerEvent: {}
+[13.358951] (-) TimerEvent: {}
+[13.459390] (-) TimerEvent: {}
+[13.559842] (-) TimerEvent: {}
+[13.660387] (-) TimerEvent: {}
+[13.760986] (-) TimerEvent: {}
+[13.861445] (-) TimerEvent: {}
+[13.962057] (-) TimerEvent: {}
+[14.063845] (-) TimerEvent: {}
+[14.164276] (-) TimerEvent: {}
+[14.264720] (-) TimerEvent: {}
+[14.365172] (-) TimerEvent: {}
+[14.458761] (more_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscribe_address_book\x1b[0m\n'}
+[14.465294] (-) TimerEvent: {}
+[14.565702] (-) TimerEvent: {}
+[14.666157] (-) TimerEvent: {}
+[14.766639] (-) TimerEvent: {}
+[14.867081] (-) TimerEvent: {}
+[14.967490] (-) TimerEvent: {}
+[15.067922] (-) TimerEvent: {}
+[15.089712] (more_interfaces) StdoutLine: {'line': b'[100%] Built target subscribe_address_book\n'}
+[15.112705] (more_interfaces) CommandEnded: {'returncode': 0}
+[15.168051] (-) TimerEvent: {}
+[15.234080] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[15.253919] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces'], 'cwd': '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'uk:en'), ('USER', 'nazar'), ('LC_TIME', 'uk_UA.UTF-8'), ('SSH_AGENT_PID', '1334'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nazar'), ('OLDPWD', '/home/nazar'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nazar/.nvm/versions/node/v12.22.1/bin'), ('NVM_INC', '/home/nazar/.nvm/versions/node/v12.22.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'uk_UA.UTF-8'), ('MANAGERPID', '1058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nazar/.nvm'), ('_colcon_cd_root', '/home/nazar/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nazar'), ('JOURNAL_STREAM', '8:37846'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nazar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nazar/.nvm/versions/node/v12.22.1/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nazar-EasyNote-TE11HC:@/tmp/.ICE-unix/1388,unix/nazar-EasyNote-TE11HC:/tmp/.ICE-unix/1388'), ('INVOCATION_ID', '923ab98516dd44bf8e2959c11d65c5d2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'uk_UA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46602d7e_b034_4bbc_b893_964f031e3d64'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'uk_UA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'uk_UA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.531'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'uk_UA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'uk_UA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'uk_UA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'uk_UA.UTF-8'), ('LC_PAPER', 'uk_UA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[15.268198] (-) TimerEvent: {}
+[15.276310] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.277078] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[15.277627] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[15.278373] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[15.279671] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.280351] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/address_book.h\n'}
+[15.280973] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[15.281572] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[15.282094] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.c\n'}
+[15.282693] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.h\n'}
+[15.283121] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.h\n'}
+[15.283656] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[15.284169] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[15.285379] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[15.286511] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[15.287037] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[15.287464] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[15.287879] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[15.288254] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.289169] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[15.290243] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[15.290733] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[15.291480] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[15.313485] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/dds_fastrtps\n'}
+[15.313764] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.313948] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.314120] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.314295] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[15.314747] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[15.315150] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.315486] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[15.316186] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[15.316585] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[15.317940] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[15.320586] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[15.321567] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[15.321975] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[15.322343] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[15.323976] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[15.324408] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[15.324761] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[15.325180] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/address_book.hpp\n'}
+[15.325698] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces\n'}
+[15.326086] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg\n'}
+[15.327611] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail\n'}
+[15.328074] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[15.328433] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.329311] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[15.331795] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[15.332748] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[15.333254] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[15.335416] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py\n'}
+[15.368356] (-) TimerEvent: {}
+[15.414895] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py'...\n"}
+[15.424717] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg\n'}
+[15.425736] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book.py\n'}
+[15.426935] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book_s.c\n'}
+[15.427174] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/__init__.py\n'}
+[15.432038] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.434749] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.438058] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.439583] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__python.so\n'}
+[15.441826] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[15.442425] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[15.443339] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[15.444976] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/more_interfaces/subscribe_address_book\n'}
+[15.454485] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/more_interfaces/subscribe_address_book" to ""\n'}
+[15.455644] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[15.457425] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[15.458030] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[15.458522] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[15.459321] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[15.460073] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[15.462198] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[15.462779] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[15.463271] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[15.463742] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[15.465692] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[15.466490] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[15.467293] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport.cmake\n'}
+[15.469319] (-) TimerEvent: {}
+[15.469783] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.470935] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.471486] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.473809] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[15.474412] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.475437] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[15.476296] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.478507] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.479581] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[15.480671] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.481419] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[15.481917] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.482365] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.482837] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.483316] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.483765] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.487033] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.488180] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[15.488467] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[15.488653] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[15.502084] (more_interfaces) CommandEnded: {'returncode': 0}
+[15.569523] (-) TimerEvent: {}
+[15.670065] (-) TimerEvent: {}
+[15.718724] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[15.720385] (-) EventReactorShutdown: {}

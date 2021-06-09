@@ -1,0 +1,121 @@
+[0.032s] Invoking command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces -- -j2 -l2
+[0.158s] [  2%] Built target more_interfaces__cpp
+[0.159s] [ 11%] Built target more_interfaces__rosidl_generator_c
+[0.201s] [ 22%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.202s] [ 28%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.297s] [ 37%] Built target more_interfaces__rosidl_typesupport_c
+[0.311s] [ 45%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.376s] [ 54%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.393s] [ 62%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.440s] [ 62%] Built target more_interfaces
+[0.471s] [35m[1mScanning dependencies of target subscribe_address_book[0m
+[0.534s] [ 65%] [32mBuilding CXX object CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o[0m
+[0.559s] [ 68%] Built target more_interfaces__py
+[0.681s] [ 74%] Built target publish_address_book
+[0.812s] [ 80%] Built target more_interfaces__python
+[0.899s] [ 85%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.985s] [ 91%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.095s] [ 97%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[14.775s] [100%] [32m[1mLinking CXX executable subscribe_address_book[0m
+[15.389s] [100%] Built target subscribe_address_book
+[15.411s] Invoked command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces -- -j2 -l2
+[15.549s] Invoking command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces
+[15.571s] -- Install configuration: ""
+[15.573s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[15.574s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces
+[15.575s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg
+[15.576s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[15.576s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/address_book.h
+[15.577s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[15.578s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.h
+[15.578s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.c
+[15.579s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__functions.h
+[15.579s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.h
+[15.579s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[15.579s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[15.579s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[15.580s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces
+[15.580s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg
+[15.580s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[15.580s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[15.580s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.580s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[15.581s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces
+[15.581s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg
+[15.581s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[15.581s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/dds_fastrtps
+[15.581s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[15.581s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.582s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[15.582s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces
+[15.582s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg
+[15.582s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.582s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[15.595s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.c
+[15.595s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[15.595s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[15.596s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[15.596s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces
+[15.596s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg
+[15.596s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[15.596s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__builder.hpp
+[15.596s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__struct.hpp
+[15.597s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__traits.hpp
+[15.597s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/address_book.hpp
+[15.597s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces
+[15.597s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg
+[15.597s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[15.597s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__type_support.cpp
+[15.597s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/include/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[15.598s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[15.598s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[15.598s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[15.598s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[15.606s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py
+[15.659s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg
+[15.659s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book.py
+[15.659s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_address_book_s.c
+[15.659s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/__init__.py
+[15.659s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[15.659s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[15.660s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[15.660s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/libmore_interfaces__python.so
+[15.660s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[15.660s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[15.660s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[15.660s] -- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/more_interfaces/subscribe_address_book
+[15.662s] -- Set runtime path of "/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/lib/more_interfaces/subscribe_address_book" to ""
+[15.662s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[15.663s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[15.663s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[15.663s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[15.664s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[15.664s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[15.665s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[15.665s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[15.665s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[15.666s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[15.666s] -- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[15.667s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[15.668s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport.cmake
+[15.668s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[15.669s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[15.669s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.670s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[15.670s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[15.671s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cppExport.cmake
+[15.672s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[15.672s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.673s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[15.673s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[15.674s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[15.674s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.675s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[15.675s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[15.676s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.676s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.676s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.677s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[15.677s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[15.678s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces/share/more_interfaces/package.xml
+[15.687s] Invoked command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces

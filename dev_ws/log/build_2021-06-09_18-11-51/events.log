@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000783] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000952] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001073] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001187] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001298] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001415] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.003258] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.027359] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.029393] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.030774] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'uk:en'), ('USER', 'nazar'), ('LC_TIME', 'uk_UA.UTF-8'), ('SSH_AGENT_PID', '1334'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nazar'), ('OLDPWD', '/home/nazar'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nazar/.nvm/versions/node/v12.22.1/bin'), ('NVM_INC', '/home/nazar/.nvm/versions/node/v12.22.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'uk_UA.UTF-8'), ('MANAGERPID', '1058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nazar/.nvm'), ('_colcon_cd_root', '/home/nazar/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nazar'), ('JOURNAL_STREAM', '8:37846'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nazar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nazar/.nvm/versions/node/v12.22.1/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nazar-EasyNote-TE11HC:@/tmp/.ICE-unix/1388,unix/nazar-EasyNote-TE11HC:/tmp/.ICE-unix/1388'), ('INVOCATION_ID', '923ab98516dd44bf8e2959c11d65c5d2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'uk_UA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/46602d7e_b034_4bbc_b893_964f031e3d64'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'uk_UA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'uk_UA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.531'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'uk_UA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'uk_UA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'uk_UA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'uk_UA.UTF-8'), ('LC_PAPER', 'uk_UA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.099290] (-) TimerEvent: {}
+[0.164712] (more_interfaces) StdoutLine: {'line': b'[  8%] Built target more_interfaces__cpp\n'}
+[0.165358] (more_interfaces) StdoutLine: {'line': b'[ 11%] Built target more_interfaces__rosidl_generator_c\n'}
+[0.199396] (-) TimerEvent: {}
+[0.204409] (more_interfaces) StdoutLine: {'line': b'[ 20%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.210365] (more_interfaces) StdoutLine: {'line': b'[ 28%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[0.274033] (more_interfaces) StdoutLine: {'line': b'[ 37%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.292199] (more_interfaces) StdoutLine: {'line': b'[ 45%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[0.301974] (-) TimerEvent: {}
+[0.353782] (more_interfaces) StdoutLine: {'line': b'[ 54%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.398296] (more_interfaces) StdoutLine: {'line': b'[ 62%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.402214] (-) TimerEvent: {}
+[0.441673] (more_interfaces) StdoutLine: {'line': b'[ 62%] Built target more_interfaces\n'}
+[0.468845] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscribe_address_book\x1b[0m\n'}
+[0.508700] (-) TimerEvent: {}
+[0.512829] (more_interfaces) StdoutLine: {'line': b'[ 65%] Built target more_interfaces__py\n'}
+[0.522028] (more_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o\x1b[0m\n'}
+[0.608823] (-) TimerEvent: {}
+[0.651767] (more_interfaces) StdoutLine: {'line': b'[ 74%] Built target publish_address_book\n'}
+[0.706727] (more_interfaces) StdoutLine: {'line': b'[ 80%] Built target more_interfaces__python\n'}
+[0.708933] (-) TimerEvent: {}
+[0.757802] (more_interfaces) StdoutLine: {'line': b'[ 85%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.803175] (more_interfaces) StdoutLine: {'line': b'[ 91%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.809060] (-) TimerEvent: {}
+[0.853119] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.909228] (-) TimerEvent: {}
+[1.010717] (-) TimerEvent: {}
+[1.111154] (-) TimerEvent: {}
+[1.211605] (-) TimerEvent: {}
+[1.312063] (-) TimerEvent: {}
+[1.412499] (-) TimerEvent: {}
+[1.512951] (-) TimerEvent: {}
+[1.613389] (-) TimerEvent: {}
+[1.713850] (-) TimerEvent: {}
+[1.814298] (-) TimerEvent: {}
+[1.914751] (-) TimerEvent: {}
+[2.015220] (-) TimerEvent: {}
+[2.115673] (-) TimerEvent: {}
+[2.216131] (-) TimerEvent: {}
+[2.316587] (-) TimerEvent: {}
+[2.417068] (-) TimerEvent: {}
+[2.517512] (-) TimerEvent: {}
+[2.617983] (-) TimerEvent: {}
+[2.718439] (-) TimerEvent: {}
+[2.818889] (-) TimerEvent: {}
+[2.919337] (-) TimerEvent: {}
+[3.019775] (-) TimerEvent: {}
+[3.120229] (-) TimerEvent: {}
+[3.220696] (-) TimerEvent: {}
+[3.321137] (-) TimerEvent: {}
+[3.421571] (-) TimerEvent: {}
+[3.522015] (-) TimerEvent: {}
+[3.622459] (-) TimerEvent: {}
+[3.722904] (-) TimerEvent: {}
+[3.823346] (-) TimerEvent: {}
+[3.923801] (-) TimerEvent: {}
+[4.024254] (-) TimerEvent: {}
+[4.124694] (-) TimerEvent: {}
+[4.225124] (-) TimerEvent: {}
+[4.325583] (-) TimerEvent: {}
+[4.425982] (-) TimerEvent: {}
+[4.526442] (-) TimerEvent: {}
+[4.626887] (-) TimerEvent: {}
+[4.690109] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AddressBookSubscriber::topic_callback(more_interfaces::msg::AddressBook_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.690494] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:24:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.690690] (more_interfaces) StderrLine: {'line': b'   24 |   \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[4.690856] (more_interfaces) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.727040] (-) TimerEvent: {}
+[4.827468] (-) TimerEvent: {}
+[4.927890] (-) TimerEvent: {}
+[5.028338] (-) TimerEvent: {}
+[5.128808] (-) TimerEvent: {}
+[5.229253] (-) TimerEvent: {}
+[5.329695] (-) TimerEvent: {}
+[5.430106] (-) TimerEvent: {}
+[5.530554] (-) TimerEvent: {}
+[5.630999] (-) TimerEvent: {}
+[5.731447] (-) TimerEvent: {}
+[5.831898] (-) TimerEvent: {}
+[5.932354] (-) TimerEvent: {}
+[6.032824] (-) TimerEvent: {}
+[6.133261] (-) TimerEvent: {}
+[6.233691] (-) TimerEvent: {}
+[6.334131] (-) TimerEvent: {}
+[6.434570] (-) TimerEvent: {}
+[6.535015] (-) TimerEvent: {}
+[6.635455] (-) TimerEvent: {}
+[6.735913] (-) TimerEvent: {}
+[6.836374] (-) TimerEvent: {}
+[6.936824] (-) TimerEvent: {}
+[7.037258] (-) TimerEvent: {}
+[7.137700] (-) TimerEvent: {}
+[7.238124] (-) TimerEvent: {}
+[7.338569] (-) TimerEvent: {}
+[7.439025] (-) TimerEvent: {}
+[7.539462] (-) TimerEvent: {}
+[7.639901] (-) TimerEvent: {}
+[7.740707] (-) TimerEvent: {}
+[7.841126] (-) TimerEvent: {}
+[7.941561] (-) TimerEvent: {}
+[8.036626] (more_interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/subscribe_address_book.dir/build.make:63: CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o] \xd0\x9f\xd0\xbe\xd0\xbc\xd0\xb8\xd0\xbb\xd0\xba\xd0\xb0 1\n'}
+[8.037225] (more_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/subscribe_address_book.dir/all] \xd0\x9f\xd0\xbe\xd0\xbc\xd0\xb8\xd0\xbb\xd0\xba\xd0\xb0 2\n'}
+[8.041751] (more_interfaces) StderrLine: {'line': b'make: *** [Makefile:141: all] \xd0\x9f\xd0\xbe\xd0\xbc\xd0\xb8\xd0\xbb\xd0\xba\xd0\xb0 2\n'}
+[8.042040] (-) TimerEvent: {}
+[8.045397] (more_interfaces) CommandEnded: {'returncode': 2}
+[8.142191] (-) TimerEvent: {}
+[8.196765] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 2}
+[8.198886] (-) EventReactorShutdown: {}

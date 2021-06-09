@@ -1,0 +1,49 @@
+[0.104s] Invoking command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces
+[1.707s] -- The C compiler identification is GNU 9.3.0
+[2.408s] -- The CXX compiler identification is GNU 9.3.0
+[2.525s] -- Check for working C compiler: /usr/bin/cc
+[2.723s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.726s] -- Detecting C compiler ABI info
+[2.899s] -- Detecting C compiler ABI info - done
+[2.937s] -- Detecting C compile features
+[2.938s] -- Detecting C compile features - done
+[2.949s] -- Check for working CXX compiler: /usr/bin/c++
+[3.147s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.147s] -- Detecting CXX compiler ABI info
+[3.305s] -- Detecting CXX compiler ABI info - done
+[3.332s] -- Detecting CXX compile features
+[3.334s] -- Detecting CXX compile features - done
+[3.419s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[3.562s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[3.562s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.901s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[3.972s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.071s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[4.618s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.701s] -- Found FastRTPS: /opt/ros/galactic/include  
+[5.356s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.533s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[5.955s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[5.978s] -- Found rmw_cyclonedds_cpp: 0.22.2 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[6.070s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.095s] -- Looking for pthread.h
+[6.250s] -- Looking for pthread.h - found
+[6.251s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.435s] -- Looking for pthread_create in pthreads
+[6.604s] -- Looking for pthread_create in pthreads - not found
+[6.604s] -- Looking for pthread_create in pthread
+[6.780s] -- Looking for pthread_create in pthread - found
+[6.782s] -- Found Threads: TRUE  
+[7.410s] CMake Error at /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[7.410s]   rosidl_generate_interfaces() the passed file 'msg/AddresBook.msg' doesn't
+[7.411s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[7.411s]   '/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces'
+[7.411s] Call Stack (most recent call first):
+[7.411s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[7.411s] 
+[7.412s] 
+[7.419s] -- Configuring incomplete, errors occurred!
+[7.419s] See also "/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[7.419s] See also "/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces/CMakeFiles/CMakeError.log".
+[7.443s] Invoked command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/more_interfaces

@@ -1,0 +1,23 @@
+[  6%] Built target more_interfaces__cpp
+[ 12%] Built target more_interfaces__rosidl_generator_c
+[ 30%] Built target more_interfaces__rosidl_typesupport_c
+[ 30%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 39%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 48%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[ 66%] Built target more_interfaces
+[35m[1mScanning dependencies of target publish_address_book[0m
+[ 69%] Built target more_interfaces__py
+[ 75%] Built target more_interfaces__python
+[ 78%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[ 84%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[ 90%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In constructor ‘[01m[KAddressBookPublisher::AddressBookPublisher()[m[K’:
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:32:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Ktimer_[m[K’
+   32 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(1s,publish_msg);
+      |             [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/publish_address_book.dir/build.make:63: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Помилка 1
+make[1]: *** [CMakeFiles/Makefile2:365: CMakeFiles/publish_address_book.dir/all] Помилка 2
+make: *** [Makefile:141: all] Помилка 2

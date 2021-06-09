@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.001256] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001399] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001500] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001969] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002688] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces')])}
+[0.002859] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.037214] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.039050] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.044340] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli', '--', '-j2', '-l2'], 'cwd': '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-1000/default,13115,0'), ('LANGUAGE', 'uk:en'), ('USER', 'nazar'), ('LC_TIME', 'uk_UA.UTF-8'), ('SSH_AGENT_PID', '1374'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nazar'), ('OLDPWD', '/home/nazar'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nazar/.nvm/versions/node/v12.22.1/bin'), ('NVM_INC', '/home/nazar/.nvm/versions/node/v12.22.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'uk_UA.UTF-8'), ('MANAGERPID', '1082'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nazar/.nvm'), ('_colcon_cd_root', '/home/nazar/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nazar'), ('JOURNAL_STREAM', '8:38772'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nazar'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nazar/.nvm/versions/node/v12.22.1/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nazar-EasyNote-TE11HC:@/tmp/.ICE-unix/1428,unix/nazar-EasyNote-TE11HC:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'c04526d6e5d34bc8b9c59d6ae0734c8d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'uk_UA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f4d2401_508d_41be_a9f5_27af6e874a94'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'uk_UA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'uk_UA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.86'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'uk_UA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'uk_UA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'uk_UA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'uk_UA.UTF-8'), ('LC_PAPER', 'uk_UA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces:/opt/ros/galactic')]), 'shell': False}
+[0.099182] (-) TimerEvent: {}
+[0.148843] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target server\x1b[0m\n'}
+[0.160583] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] Built target client\n'}
+[0.199290] (-) TimerEvent: {}
+[0.220920] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_three_ints_server.cpp.o\x1b[0m\n'}
+[0.299419] (-) TimerEvent: {}
+[0.399847] (-) TimerEvent: {}
+[0.500299] (-) TimerEvent: {}
+[0.600774] (-) TimerEvent: {}
+[0.701211] (-) TimerEvent: {}
+[0.801657] (-) TimerEvent: {}
+[0.902090] (-) TimerEvent: {}
+[1.002523] (-) TimerEvent: {}
+[1.102936] (-) TimerEvent: {}
+[1.203358] (-) TimerEvent: {}
+[1.303777] (-) TimerEvent: {}
+[1.404210] (-) TimerEvent: {}
+[1.504648] (-) TimerEvent: {}
+[1.605099] (-) TimerEvent: {}
+[1.705561] (-) TimerEvent: {}
+[1.806007] (-) TimerEvent: {}
+[1.906446] (-) TimerEvent: {}
+[2.006886] (-) TimerEvent: {}
+[2.107343] (-) TimerEvent: {}
+[2.207775] (-) TimerEvent: {}
+[2.308226] (-) TimerEvent: {}
+[2.408678] (-) TimerEvent: {}
+[2.509143] (-) TimerEvent: {}
+[2.609581] (-) TimerEvent: {}
+[2.710025] (-) TimerEvent: {}
+[2.810465] (-) TimerEvent: {}
+[2.910908] (-) TimerEvent: {}
+[3.011353] (-) TimerEvent: {}
+[3.111801] (-) TimerEvent: {}
+[3.212245] (-) TimerEvent: {}
+[3.312685] (-) TimerEvent: {}
+[3.413138] (-) TimerEvent: {}
+[3.513564] (-) TimerEvent: {}
+[3.614008] (-) TimerEvent: {}
+[3.714458] (-) TimerEvent: {}
+[3.814901] (-) TimerEvent: {}
+[3.915339] (-) TimerEvent: {}
+[4.015768] (-) TimerEvent: {}
+[4.116216] (-) TimerEvent: {}
+[4.216664] (-) TimerEvent: {}
+[4.317112] (-) TimerEvent: {}
+[4.417597] (-) TimerEvent: {}
+[4.518018] (-) TimerEvent: {}
+[4.618465] (-) TimerEvent: {}
+[4.718915] (-) TimerEvent: {}
+[4.819364] (-) TimerEvent: {}
+[4.919812] (-) TimerEvent: {}
+[5.020251] (-) TimerEvent: {}
+[5.120707] (-) TimerEvent: {}
+[5.221159] (-) TimerEvent: {}
+[5.321595] (-) TimerEvent: {}
+[5.422046] (-) TimerEvent: {}
+[5.522488] (-) TimerEvent: {}
+[5.622936] (-) TimerEvent: {}
+[5.723376] (-) TimerEvent: {}
+[5.823830] (-) TimerEvent: {}
+[5.915596] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[5.923977] (-) TimerEvent: {}
+[6.024451] (-) TimerEvent: {}
+[6.125301] (-) TimerEvent: {}
+[6.210756] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[6.225424] (-) TimerEvent: {}
+[6.235187] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[6.286845] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[6.309987] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli'], 'cwd': '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp//tmux-1000/default,13115,0'), ('LANGUAGE', 'uk:en'), ('USER', 'nazar'), ('LC_TIME', 'uk_UA.UTF-8'), ('SSH_AGENT_PID', '1374'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/nazar'), ('OLDPWD', '/home/nazar'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nazar/.nvm/versions/node/v12.22.1/bin'), ('NVM_INC', '/home/nazar/.nvm/versions/node/v12.22.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'uk_UA.UTF-8'), ('MANAGERPID', '1082'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/nazar/.nvm'), ('_colcon_cd_root', '/home/nazar/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'nazar'), ('JOURNAL_STREAM', '8:38772'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nazar'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nazar/.nvm/versions/node/v12.22.1/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nazar-EasyNote-TE11HC:@/tmp/.ICE-unix/1428,unix/nazar-EasyNote-TE11HC:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'c04526d6e5d34bc8b9c59d6ae0734c8d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'uk_UA.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4f4d2401_508d_41be_a9f5_27af6e874a94'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'uk_UA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'uk_UA.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.86'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'uk_UA.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'uk_UA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'uk_UA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'uk_UA.UTF-8'), ('LC_PAPER', 'uk_UA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces:/opt/ros/galactic')]), 'shell': False}
+[6.325557] (-) TimerEvent: {}
+[6.333634] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.350785] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[6.354822] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[6.372701] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[6.374902] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[6.375728] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[6.376208] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[6.393618] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[6.394020] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[6.405000] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[6.405332] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[6.405552] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[6.405820] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[6.406089] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[6.406284] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[6.406487] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[6.406669] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[6.406858] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[6.413457] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[6.413846] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[6.427368] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[6.428201] (-) TimerEvent: {}
+[6.528899] (-) TimerEvent: {}
+[6.534895] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[6.536805] (-) EventReactorShutdown: {}

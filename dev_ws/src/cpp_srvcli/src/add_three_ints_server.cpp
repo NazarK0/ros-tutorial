@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
     std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_three_ints_server");
 
-    rclcpp::Service<tutorial_interfaces::srv::AddThreeInts>::SharedPtr service = node->create_service<tutorial_interface::srv::AddThreeInts>("add_three_ints", &add);
+    rclcpp::Service<tutorial_interfaces::srv::AddThreeInts>::SharedPtr service = node->create_service<tutorial_interfaces::srv::AddThreeInts>("add_three_ints", &add);
 
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Ready to add three ints.");
 

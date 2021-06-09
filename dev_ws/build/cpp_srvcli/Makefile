@@ -219,59 +219,59 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
+src/add_three_ints_client.o: src/add_three_ints_client.cpp.o
 
-.PHONY : src/add_two_ints_client.o
-
-# target to build an object file
-src/add_two_ints_client.cpp.o:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_two_ints_client.cpp.o
-.PHONY : src/add_two_ints_client.cpp.o
-
-src/add_two_ints_client.i: src/add_two_ints_client.cpp.i
-
-.PHONY : src/add_two_ints_client.i
-
-# target to preprocess a source file
-src/add_two_ints_client.cpp.i:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_two_ints_client.cpp.i
-.PHONY : src/add_two_ints_client.cpp.i
-
-src/add_two_ints_client.s: src/add_two_ints_client.cpp.s
-
-.PHONY : src/add_two_ints_client.s
-
-# target to generate assembly for a file
-src/add_two_ints_client.cpp.s:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_two_ints_client.cpp.s
-.PHONY : src/add_two_ints_client.cpp.s
-
-src/add_two_ints_server.o: src/add_two_ints_server.cpp.o
-
-.PHONY : src/add_two_ints_server.o
+.PHONY : src/add_three_ints_client.o
 
 # target to build an object file
-src/add_two_ints_server.cpp.o:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_two_ints_server.cpp.o
-.PHONY : src/add_two_ints_server.cpp.o
+src/add_three_ints_client.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_three_ints_client.cpp.o
+.PHONY : src/add_three_ints_client.cpp.o
 
-src/add_two_ints_server.i: src/add_two_ints_server.cpp.i
+src/add_three_ints_client.i: src/add_three_ints_client.cpp.i
 
-.PHONY : src/add_two_ints_server.i
+.PHONY : src/add_three_ints_client.i
 
 # target to preprocess a source file
-src/add_two_ints_server.cpp.i:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_two_ints_server.cpp.i
-.PHONY : src/add_two_ints_server.cpp.i
+src/add_three_ints_client.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_three_ints_client.cpp.i
+.PHONY : src/add_three_ints_client.cpp.i
 
-src/add_two_ints_server.s: src/add_two_ints_server.cpp.s
+src/add_three_ints_client.s: src/add_three_ints_client.cpp.s
 
-.PHONY : src/add_two_ints_server.s
+.PHONY : src/add_three_ints_client.s
 
 # target to generate assembly for a file
-src/add_two_ints_server.cpp.s:
-	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_two_ints_server.cpp.s
-.PHONY : src/add_two_ints_server.cpp.s
+src/add_three_ints_client.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/add_three_ints_client.cpp.s
+.PHONY : src/add_three_ints_client.cpp.s
+
+src/add_three_ints_server.o: src/add_three_ints_server.cpp.o
+
+.PHONY : src/add_three_ints_server.o
+
+# target to build an object file
+src/add_three_ints_server.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_three_ints_server.cpp.o
+.PHONY : src/add_three_ints_server.cpp.o
+
+src/add_three_ints_server.i: src/add_three_ints_server.cpp.i
+
+.PHONY : src/add_three_ints_server.i
+
+# target to preprocess a source file
+src/add_three_ints_server.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_three_ints_server.cpp.i
+.PHONY : src/add_three_ints_server.cpp.i
+
+src/add_three_ints_server.s: src/add_three_ints_server.cpp.s
+
+.PHONY : src/add_three_ints_server.s
+
+# target to generate assembly for a file
+src/add_three_ints_server.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/add_three_ints_server.cpp.s
+.PHONY : src/add_three_ints_server.cpp.s
 
 # Help Target
 help:
@@ -290,12 +290,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cpp_srvcli_uninstall"
 	@echo "... uninstall"
-	@echo "... src/add_two_ints_client.o"
-	@echo "... src/add_two_ints_client.i"
-	@echo "... src/add_two_ints_client.s"
-	@echo "... src/add_two_ints_server.o"
-	@echo "... src/add_two_ints_server.i"
-	@echo "... src/add_two_ints_server.s"
+	@echo "... src/add_three_ints_client.o"
+	@echo "... src/add_three_ints_client.i"
+	@echo "... src/add_three_ints_client.s"
+	@echo "... src/add_three_ints_server.o"
+	@echo "... src/add_three_ints_server.i"
+	@echo "... src/add_three_ints_server.s"
 .PHONY : help
 
 

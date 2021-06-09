@@ -1,0 +1,17 @@
+[  8%] Built target more_interfaces__cpp
+[ 11%] Built target more_interfaces__rosidl_generator_c
+[ 20%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 28%] Built target more_interfaces__rosidl_typesupport_c
+[ 37%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 45%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 54%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[ 62%] Built target more_interfaces
+[35m[1mScanning dependencies of target subscribe_address_book[0m
+[ 65%] Built target more_interfaces__py
+[ 68%] [32mBuilding CXX object CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o[0m
+[ 74%] Built target publish_address_book
+[ 80%] Built target more_interfaces__python
+[ 85%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[ 91%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext

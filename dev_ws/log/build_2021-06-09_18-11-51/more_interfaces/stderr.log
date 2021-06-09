@@ -1,0 +1,7 @@
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:[m[K In member function ‘[01m[Kvoid AddressBookSubscriber::topic_callback(more_interfaces::msg::AddressBook_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:24:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   24 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/subscribe_address_book.dir/build.make:63: CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o] Помилка 1
+make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/subscribe_address_book.dir/all] Помилка 2
+make: *** [Makefile:141: all] Помилка 2

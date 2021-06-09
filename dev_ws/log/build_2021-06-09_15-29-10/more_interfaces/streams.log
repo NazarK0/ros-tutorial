@@ -1,0 +1,38 @@
+[0.038s] Invoking command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces -- -j2 -l2
+[0.148s] [  9%] Built target more_interfaces__rosidl_generator_c
+[0.155s] [ 12%] Built target more_interfaces__cpp
+[0.190s] [ 21%] Built target more_interfaces__rosidl_typesupport_c
+[0.195s] [ 30%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.244s] [ 39%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.255s] [ 48%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.294s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.345s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.388s] [ 66%] Built target more_interfaces
+[0.418s] [35m[1mScanning dependencies of target publish_address_book[0m
+[0.427s] [ 69%] Built target more_interfaces__py
+[0.476s] [ 75%] Built target more_interfaces__python
+[0.520s] [ 81%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.569s] [ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.589s] [ 90%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[0.684s] [ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.261s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:12:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.261s]    12 |         rclcpp::Publisher<more_interfaces::msg::AddressBook::SharedPtr [01;31m[Kaddress_book_publisher_[m[K;
+[4.261s]       |                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.270s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In constructor ‘[01m[KAddressBookPublisher::AddressBookPublisher()[m[K’:
+[4.270s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:17:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddress_book_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KAddressBookPublisher[m[K’?
+[4.271s]    17 |             [01;31m[Kaddress_book_publisher_[m[K =
+[4.271s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.271s]       |             [32m[KAddressBookPublisher[m[K
+[4.285s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In lambda function:
+[4.285s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:32:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AddressBookPublisher[m[K’ has no member named ‘[01m[Kaddress_book_publisher_[m[K’; did you mean ‘[01m[KAddressBookPublisher[m[K’?
+[4.285s]    32 |                 this->[01;31m[Kaddress_book_publisher_[m[K->publish(message);
+[4.285s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.286s]       |                       [32m[KAddressBookPublisher[m[K
+[4.286s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In constructor ‘[01m[KAddressBookPublisher::AddressBookPublisher()[m[K’:
+[4.286s] [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/publish_address_book.cpp:35:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Ktimer_[m[K’
+[4.287s]    35 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(1s,publish_msg);
+[4.287s]       |             [01;31m[K^~~~~~[m[K
+[6.036s] make[2]: *** [CMakeFiles/publish_address_book.dir/build.make:63: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Помилка 1
+[6.036s] make[1]: *** [CMakeFiles/Makefile2:365: CMakeFiles/publish_address_book.dir/all] Помилка 2
+[6.037s] make: *** [Makefile:141: all] Помилка 2
+[6.045s] Invoked command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/more_interfaces -- -j2 -l2

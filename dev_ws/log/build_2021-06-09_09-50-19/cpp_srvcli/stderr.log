@@ -1,0 +1,25 @@
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_three_ints_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_three_ints_server.cpp:19:103:[m[K [01;31m[Kerror: [m[K‘[01m[Ktutorial_interface[m[K’ was not declared in this scope; did you mean ‘[01m[Ktutorial_interfaces[m[K’?
+   19 |     rclcpp::Service<tutorial_interfaces::srv::AddThreeInts>::SharedPtr service = node->create_service<[01;31m[Ktutorial_interface[m[K::srv::AddThreeInts>("add_three_ints", &add);
+      |                                                                                                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                       [32m[Ktutorial_interfaces[m[K
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_three_ints_server.cpp:19:88:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   19 |     rclcpp::Service<tutorial_interfaces::srv::AddThreeInts>::SharedPtr service = node->[01;31m[Kcreate_service<tutorial_interface::srv::AddThreeInts>[m[K("add_three_ints", &add);
+      |                                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_three_ints_server.cpp:19:164:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_service<<expression error> >(const char [15], void (*)(std::shared_ptr<tutorial_interfaces::srv::AddThreeInts_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::AddThreeInts_Response_<std::allocator<void> > >))[m[K’
+   19 |     rclcpp::Service<tutorial_interfaces::srv::AddThreeInts>::SharedPtr service = node->create_service<tutorial_interface::srv::AddThreeInts>("add_three_ints", &add[01;31m[K)[m[K;
+      |                                                                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_three_ints_server.cpp:1[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:266:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  266 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:266:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_three_ints_server.cpp:19:164:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |     rclcpp::Service<tutorial_interfaces::srv::AddThreeInts>::SharedPtr service = node->create_service<tutorial_interface::srv::AddThreeInts>("add_three_ints", &add[01;31m[K)[m[K;
+      |                                                                                                                                                                    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/add_three_ints_server.cpp.o] Помилка 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/server.dir/all] Помилка 2
+make: *** [Makefile:141: all] Помилка 2

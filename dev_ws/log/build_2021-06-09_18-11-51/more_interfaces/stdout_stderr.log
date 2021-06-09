@@ -1,0 +1,24 @@
+[  8%] Built target more_interfaces__cpp
+[ 11%] Built target more_interfaces__rosidl_generator_c
+[ 20%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 28%] Built target more_interfaces__rosidl_typesupport_c
+[ 37%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 45%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 54%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[ 62%] Built target more_interfaces
+[35m[1mScanning dependencies of target subscribe_address_book[0m
+[ 65%] Built target more_interfaces__py
+[ 68%] [32mBuilding CXX object CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o[0m
+[ 74%] Built target publish_address_book
+[ 80%] Built target more_interfaces__python
+[ 85%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[ 91%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:[m[K In member function ‘[01m[Kvoid AddressBookSubscriber::topic_callback(more_interfaces::msg::AddressBook_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/nazar/projects/lessons/ros-tutorial/dev_ws/src/more_interfaces/src/subscribe_address_book.cpp:24:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   24 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/subscribe_address_book.dir/build.make:63: CMakeFiles/subscribe_address_book.dir/src/subscribe_address_book.cpp.o] Помилка 1
+make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/subscribe_address_book.dir/all] Помилка 2
+make: *** [Makefile:141: all] Помилка 2

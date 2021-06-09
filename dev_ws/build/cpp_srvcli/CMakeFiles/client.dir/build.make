@@ -57,33 +57,37 @@ include CMakeFiles/client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/client.dir/flags.make
 
-CMakeFiles/client.dir/src/add_two_ints_client.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/src/add_two_ints_client.cpp.o: /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_two_ints_client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/add_two_ints_client.cpp.o -c /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_two_ints_client.cpp
+CMakeFiles/client.dir/src/add_three_ints_client.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/src/add_three_ints_client.cpp.o: /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_three_ints_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_srvcli/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/src/add_three_ints_client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/add_three_ints_client.cpp.o -c /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_three_ints_client.cpp
 
-CMakeFiles/client.dir/src/add_two_ints_client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/add_two_ints_client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_two_ints_client.cpp > CMakeFiles/client.dir/src/add_two_ints_client.cpp.i
+CMakeFiles/client.dir/src/add_three_ints_client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/add_three_ints_client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_three_ints_client.cpp > CMakeFiles/client.dir/src/add_three_ints_client.cpp.i
 
-CMakeFiles/client.dir/src/add_two_ints_client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/add_two_ints_client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_two_ints_client.cpp -o CMakeFiles/client.dir/src/add_two_ints_client.cpp.s
+CMakeFiles/client.dir/src/add_three_ints_client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/add_three_ints_client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_srvcli/src/add_three_ints_client.cpp -o CMakeFiles/client.dir/src/add_three_ints_client.cpp.s
 
 # Object files for target client
 client_OBJECTS = \
-"CMakeFiles/client.dir/src/add_two_ints_client.cpp.o"
+"CMakeFiles/client.dir/src/add_three_ints_client.cpp.o"
 
 # External object files for target client
 client_EXTERNAL_OBJECTS =
 
-client: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o
+client: CMakeFiles/client.dir/src/add_three_ints_client.cpp.o
 client: CMakeFiles/client.dir/build.make
 client: /opt/ros/galactic/lib/librclcpp.so
 client: /opt/ros/galactic/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so
 client: /opt/ros/galactic/lib/libexample_interfaces__rosidl_typesupport_c.so
 client: /opt/ros/galactic/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so
 client: /opt/ros/galactic/lib/libexample_interfaces__rosidl_typesupport_cpp.so
+client: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+client: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+client: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+client: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
 client: /opt/ros/galactic/lib/libament_index_cpp.so
 client: /opt/ros/galactic/lib/liblibstatistics_collector.so
 client: /opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
@@ -134,9 +138,10 @@ client: /opt/ros/galactic/lib/libunique_identifier_msgs__rosidl_typesupport_intr
 client: /opt/ros/galactic/lib/libunique_identifier_msgs__rosidl_generator_c.so
 client: /opt/ros/galactic/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 client: /opt/ros/galactic/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+client: /opt/ros/galactic/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+client: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
 client: /opt/ros/galactic/lib/librosidl_typesupport_introspection_cpp.so
 client: /opt/ros/galactic/lib/librosidl_typesupport_introspection_c.so
-client: /opt/ros/galactic/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
 client: /opt/ros/galactic/lib/librosidl_typesupport_cpp.so
 client: /opt/ros/galactic/lib/librosidl_typesupport_c.so
 client: /opt/ros/galactic/lib/librcpputils.so
