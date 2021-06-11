@@ -1,0 +1,36 @@
+[0.033s] Invoking command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters -- -j2 -l2
+[0.101s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.154s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.283s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.379s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.766s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.771s] -- Found rmw_cyclonedds_cpp: 0.22.2 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.816s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.290s] -- Configuring done
+[1.305s] -- Generating done
+[1.308s] -- Build files have been written to: /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters
+[1.398s] [100%] Built target parameter_node
+[1.416s] Invoked command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters -- -j2 -l2
+[1.497s] Invoking command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters
+[1.515s] -- Install configuration: ""
+[1.515s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/lib/cpp_parameters/parameter_node
+[1.515s] -- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/launch
+[1.516s] -- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+[1.516s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[1.516s] -- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[1.516s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[1.517s] -- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[1.517s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[1.517s] -- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[1.517s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[1.518s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[1.518s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[1.518s] -- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[1.520s] -- Installing: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+[1.521s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[1.521s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[1.522s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[1.522s] -- Up-to-date: /home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters/share/cpp_parameters/package.xml
+[1.529s] Invoked command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters

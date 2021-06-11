@@ -1,0 +1,44 @@
+[0.054s] Invoking command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters
+[1.697s] -- The C compiler identification is GNU 9.3.0
+[2.376s] -- The CXX compiler identification is GNU 9.3.0
+[2.492s] -- Check for working C compiler: /usr/bin/cc
+[2.706s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.710s] -- Detecting C compiler ABI info
+[2.897s] -- Detecting C compiler ABI info - done
+[2.916s] -- Detecting C compile features
+[2.934s] -- Detecting C compile features - done
+[2.956s] -- Check for working CXX compiler: /usr/bin/c++
+[3.124s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.125s] -- Detecting CXX compiler ABI info
+[3.306s] -- Detecting CXX compiler ABI info - done
+[3.350s] -- Detecting CXX compile features
+[3.351s] -- Detecting CXX compile features - done
+[3.563s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[3.694s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[3.695s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.071s] -- Found rclcpp: 9.1.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[4.607s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.690s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[5.316s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.405s] -- Found FastRTPS: /opt/ros/galactic/include  
+[5.739s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.088s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[6.110s] -- Found rmw_cyclonedds_cpp: 0.22.2 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[6.197s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.225s] -- Looking for pthread.h
+[6.421s] -- Looking for pthread.h - found
+[6.421s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.638s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.639s] -- Looking for pthread_create in pthreads
+[6.818s] -- Looking for pthread_create in pthreads - not found
+[6.819s] -- Looking for pthread_create in pthread
+[6.965s] -- Looking for pthread_create in pthread - found
+[6.969s] -- Found Threads: TRUE  
+[7.526s] CMake Error at CMakeLists.txt:11 (install):
+[7.526s]   install does not recognize sub-command TARGET_SUPPORTS_SHARED_LIBS
+[7.526s] 
+[7.526s] 
+[7.727s] -- Configuring incomplete, errors occurred!
+[7.728s] See also "/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters/CMakeFiles/CMakeOutput.log".
+[7.728s] See also "/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters/CMakeFiles/CMakeError.log".
+[7.756s] Invoked command in '/home/nazar/projects/lessons/ros-tutorial/dev_ws/build/cpp_parameters' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/nazar/projects/lessons/ros-tutorial/dev_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/nazar/projects/lessons/ros-tutorial/dev_ws/install/cpp_parameters
